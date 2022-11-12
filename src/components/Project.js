@@ -1,7 +1,7 @@
 import React from 'react';
 import './Project.css';
-import pj14 from "../../assets/images/create-new-post-page.png";
-import pj18 from "../../assets/home-page.png";
+import '../App.css';
+import '../portfolio.css';
 
 function Project(props) {
   return (
@@ -12,7 +12,7 @@ function Project(props) {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={pj14} alt="" />
+            
           </div>
           <h3>MVC Tech Blog</h3>
           {/* add target='_blank' */}
