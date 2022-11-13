@@ -1,13 +1,13 @@
-import Header from "./components/Resume/Header";
-import Navigation from "./components/Navigation3";
-import Contact from "./Contact";
-import Resume from "./components/Resume";
-import Project from "./components/Project/Project";
+import Header from "./components/Header";
+import Navigation from "./components/Navigation";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume/Resume";
+import Project from "./components/Project";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import './index.css';
+import "./index.css";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Project");
@@ -28,8 +28,8 @@ function App() {
   }
   return (
     <div className="App">
-      <Navigation setCurrentPage={setCurrentPage} />
       <Header />
+      <Navigation setCurrentPage={setCurrentPage} />
       {render()}
       <Footer />
     </div>
