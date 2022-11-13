@@ -1,26 +1,23 @@
-import { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import '../style/Navigation.css';
 
 function Navigation({ setCurrentPage }) {
   return (
-    <Navbar expand="lg">
+    <Navbar collapseOnSelect expand="lg" className="bg-dark text-white">
       <Container>
-        <Navbar.Brand href="#home">
-          <img src={""} alt="Logo" />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav">
-          <span className="navbar-toggler-icon"></span>
-        </Navbar.Toggle>
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+        <Navbar.Brand href="#home"></Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto"></Nav>
+          <Nav>
             <Nav.Link
               onClick={() => {
                 setCurrentPage("About");
               }}
-              href="#home"
+              href="#about"
             >
               About
             </Nav.Link>
@@ -49,13 +46,6 @@ function Navigation({ setCurrentPage }) {
               Resume
             </Nav.Link>
           </Nav>
-          <span className="navbar-text">
-            <div className="social-icon">
-              {/* <a href="#"><img src={} alt="" /></a>
-              <a href="#"><img src={} alt="" /></a> */}
-            </div>
-            <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
-          </span>
         </Navbar.Collapse>
       </Container>
     </Navbar>

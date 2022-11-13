@@ -1,24 +1,24 @@
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 
-function Footer(prop) {
+function Footer() {
   return (
-    <Card className="text-center">
+    <Card className="text-center bg-dark text-white">
       <Card.Body>
-        <Card.Title>Special title treatment</Card.Title>
-        <Card.Text>
-          With supporting text below as a natural lead-in to additional content.
-        </Card.Text>
+        <Card.Title>Connect with Me</Card.Title>
+        <Card.Text>collzbadodo@@gmail.com</Card.Text>
 
         <div className="social-icon">
-          <a href="flex justify-between items-center w-full text-white">
+          <a href="https://www.linkedin.com/in/blessed-adodo-23b895156/" target="__blank">
             <FaLinkedin />
           </a>
-          <a href="flex justify-between items-center w-full text-white">
+          <a href="https://github.com/collzbaba" target="__blank">
             <FaGithub />
           </a>
-          <a href="https://stackoverflow.com/users/19169363/jd12345">
+          <a
+            href="https://stackoverflow.com/users/19234345/blessed-adodo"
+            target="__blank"
+          >
             <FaStackOverflow />
           </a>
         </div>
