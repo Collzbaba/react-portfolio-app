@@ -5,7 +5,7 @@ function Footer() {
   return (
     <Card className="text-center bg-dark text-white">
       <Card.Body>
-        <Card.Title>Connect with Me</Card.Title>
+        <Card.Title>Contact Me</Card.Title>
         <Card.Text>collzbadodo@gmail.com</Card.Text>
 
         <div className="social-icon">

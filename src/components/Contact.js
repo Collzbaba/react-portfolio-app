@@ -7,7 +7,7 @@ import HeaderSocials from "./HeaderSocials";
 function Contact(props) {
   return (
     <section id="contact">
-      <h5>Let Stay Connected</h5>
+      <h5>Lets Stay Connected</h5>
       <h2>Contact Me</h2>
       <div className="container contact__container">
         <Form>
