@@ -1,0 +1,10 @@
+/*============= HEADER SOCIALS ==============*/
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 1ft;
+    bottom: 3rem;
+  }

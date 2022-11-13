@@ -6,7 +6,7 @@ function Footer() {
     <Card className="text-center bg-dark text-white">
       <Card.Body>
         <Card.Title>Connect with Me</Card.Title>
-        <Card.Text>collzbadodo@@gmail.com</Card.Text>
+        <Card.Text>collzbadodo@gmail.com</Card.Text>
 
         <div className="social-icon">
           <a href="https://www.linkedin.com/in/blessed-adodo-23b895156/" target="__blank">
