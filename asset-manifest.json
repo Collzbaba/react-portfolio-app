@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-app/static/css/main.38b3c708.css",
+    "main.js": "/react-portfolio-app/static/js/main.718ecc9f.js",
+    "static/media/gpproject2-primary-keys-rentals.png": "/react-portfolio-app/static/media/gpproject2-primary-keys-rentals.1ccbf34ea1a3634ca539.png",
+    "static/media/app10-team-profile-generator.png": "/react-portfolio-app/static/media/app10-team-profile-generator.5cd8c851aef4218d0d33.png",
+    "static/media/app-18-social-network-api.png": "/react-portfolio-app/static/media/app-18-social-network-api.6408de5d1644ba35511d.png",
+    "static/media/app19pwa.png": "/react-portfolio-app/static/media/app19pwa.be251b9368db20effc60.png",
+    "static/media/app12-employeeTracker.png": "/react-portfolio-app/static/media/app12-employeeTracker.01435026db2eec3e4f59.png",
+    "static/media/app14-Mvc-Tech-Blog.png": "/react-portfolio-app/static/media/app14-Mvc-Tech-Blog.522b00da01869c76415b.png",
+    "static/media/Blessed_Adodo_Tech_Resume.pdf": "/react-portfolio-app/static/media/Blessed_Adodo_Tech_Resume.2618d9db2a6f7f094a61.pdf",
+    "static/media/howmymindisworking.png": "/react-portfolio-app/static/media/howmymindisworking.3def4a9785c23083fc28.png",
+    "index.html": "/react-portfolio-app/index.html",
+    "main.38b3c708.css.map": "/react-portfolio-app/static/css/main.38b3c708.css.map",
+    "main.718ecc9f.js.map": "/react-portfolio-app/static/js/main.718ecc9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38b3c708.css",
+    "static/js/main.718ecc9f.js"
+  ]
+}
