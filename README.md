@@ -53,7 +53,7 @@ You don’t have to ever use eject. The curated feature set is suitable for smal
 ## Usage Information
 
 - Please open the link below and click. 
- [Deploy](https://github.com/Collzbaba/react-portfolio-app)
+ [Deploy](https://collzbaba.github.io/react-portfolio-app/)
 
 ---
 
