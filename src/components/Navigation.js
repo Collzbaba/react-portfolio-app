@@ -6,14 +6,15 @@ import '../style/Navigation.css';
 
 function Navigation({ setCurrentPage }) {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-dark text-white">
+    <Navbar variant='dark' collapseOnSelect expand="lg" className="bg-dark text-white">
       <Container>
         <Navbar.Brand href="#home"></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" className="color-white"/>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav>
             <Nav.Link
+            className="text-white"
               onClick={() => {
                 setCurrentPage("About");
               }}
@@ -22,6 +23,7 @@ function Navigation({ setCurrentPage }) {
               About
             </Nav.Link>
             <Nav.Link
+            className="text-white"
               onClick={() => {
                 setCurrentPage("Project");
               }}
@@ -30,6 +32,7 @@ function Navigation({ setCurrentPage }) {
               Portfolio
             </Nav.Link>
             <Nav.Link
+            className="text-white"
               onClick={() => {
                 setCurrentPage("Contact");
               }}
@@ -38,6 +41,7 @@ function Navigation({ setCurrentPage }) {
               Contact
             </Nav.Link>
             <Nav.Link
+            className="text-white"
               onClick={() => {
                 setCurrentPage("Resume");
               }}
