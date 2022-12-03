@@ -8,6 +8,7 @@ import gpproject from "../assets/gpproject2-primary-keys-rentals.png";
 import app19 from "../assets/app19pwa.png";
 import app12 from "../assets/app12-employeeTracker.png";
 import app10 from "../assets/app10-team-profile-generator.png";
+import app11 from "../assets/DaydreamAthletics-Project.png";
 
 function Project() {
   return (
@@ -15,6 +16,19 @@ function Project() {
       <h5>My Most Recent Applications</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={app11} alt="Day Dream Athletics" />
+          </div>
+          <h3>Day Dream Athletics Project</h3>
+          <a
+            href="https://github.com/Collzbaba/DayDreamAthletic-App"
+            className="btn"
+            target="__blank"
+          >
+            Github
+          </a>
+        </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={app18} alt="SocialNetworkAPI" />
