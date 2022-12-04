@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio-app/static/css/main.38b3c708.css",
-    "main.js": "/react-portfolio-app/static/js/main.9493bee3.js",
+    "main.js": "/react-portfolio-app/static/js/main.3a125b31.js",
+    "static/media/DaydreamAthletics-Project.png": "/react-portfolio-app/static/media/DaydreamAthletics-Project.71ac66f5957abe19a45d.png",
     "static/media/gpproject2-primary-keys-rentals.png": "/react-portfolio-app/static/media/gpproject2-primary-keys-rentals.1ccbf34ea1a3634ca539.png",
     "static/media/app10-team-profile-generator.png": "/react-portfolio-app/static/media/app10-team-profile-generator.5cd8c851aef4218d0d33.png",
     "static/media/app-18-social-network-api.png": "/react-portfolio-app/static/media/app-18-social-network-api.6408de5d1644ba35511d.png",
@@ -12,10 +13,10 @@
     "static/media/howmymindisworking.png": "/react-portfolio-app/static/media/howmymindisworking.3def4a9785c23083fc28.png",
     "index.html": "/react-portfolio-app/index.html",
     "main.38b3c708.css.map": "/react-portfolio-app/static/css/main.38b3c708.css.map",
-    "main.9493bee3.js.map": "/react-portfolio-app/static/js/main.9493bee3.js.map"
+    "main.3a125b31.js.map": "/react-portfolio-app/static/js/main.3a125b31.js.map"
   },
   "entrypoints": [
     "static/css/main.38b3c708.css",
-    "static/js/main.9493bee3.js"
+    "static/js/main.3a125b31.js"
   ]
 }
